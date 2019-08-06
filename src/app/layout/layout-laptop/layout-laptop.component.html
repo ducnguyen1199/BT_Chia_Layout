@@ -1,18 +1,9 @@
 <section id="laptop" class="container-fluid pt-5 pb-5 bg-light text-dark">
     <h1 class="text-center">BEST LAPTOP</h1>
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-lg-3" *ngFor="let item of DL">
-            <div class="container">
-                <div class="card bg-light" style="width:300px">
-                    <img class="card-img-top" src={{item.src}} alt="Card image" style="max-width:100%; height: 250px;">
-                    <div class="card-body text-center">
-                        <h4 class="card-title text-center">{{item.title}}</h4>
-                        <p class="card-text">{{item.text}}</p>
-                        <a href="#" class="btn btn-primary mr-1">Detail</a>
-                        <a href="#" class="btn btn-danger">Cart</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <app-layout-card class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-lg-3"></app-layout-card>
+        <app-layout-card class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-lg-3"></app-layout-card>
+        <app-layout-card class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-lg-3"></app-layout-card>
+        <app-layout-card class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-lg-3"></app-layout-card>
     </div>
 </section>
